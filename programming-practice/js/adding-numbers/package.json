@@ -1,0 +1,22 @@
+{
+  "name": "adding-numbers",
+  "version": "1.0.0",
+  "description": "In previous programs, you asked the user for repeated input by writing the input statements multiple times. But it’s more efficient to use loops to deal with repeated input.",
+  "main": "index.js",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/prompt-sync": "^4.1.1",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "npm run build & node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

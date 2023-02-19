@@ -1,0 +1,16 @@
+{
+  "name": "retirement-calculator",
+  "version": "1.0.0",
+  "description": "Your computer knows what the current year is, which means you can incorporate that into your programs. You just have to figure out how your programming language can provide you with that information.",
+  "main": "index.js",
+  "dependencies": {
+    "prompt-async": "^0.9.9",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

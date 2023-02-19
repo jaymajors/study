@@ -1,0 +1,22 @@
+{
+  "name": "computing-statistics",
+  "version": "1.0.0",
+  "description": "Statistics is important in our field. When measuring response times or rendering times, it’s helpful to collect data so you can easily spot abnormalities. For example, the standard deviation helps you determine which values are outliers and which values are within normal ranges.",
+  "main": "index.js",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/prompt-sync": "^4.1.1",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "npm run build & node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
